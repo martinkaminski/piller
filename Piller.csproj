@@ -26,8 +26,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Data\Medicines.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Data\MedicationDosage.cs" />
+    <Compile Include="Services\IMedicineDatabase.cs" />
+    <Compile Include="Services\MedicinesDatabase.cs" />
     <Compile Include="ViewModels\MedicationDosageViewModel.cs" />
     <Compile Include="Resources\AppResources.Designer.cs">
       <DependentUpon>AppResources.resx</DependentUpon>
